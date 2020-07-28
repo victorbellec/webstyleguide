@@ -272,7 +272,7 @@
  }
 
  .page-button-primary{
-    width: 168px !important;
+    width: 168px;
     height: 48px;
     left: 241px;
     top: 339px;
@@ -284,7 +284,7 @@
     text-align: center;
     letter-spacing: 0.12px;
     color:#FFFFFF;
-    background: #3637FF;
+    background-color: #3637FF;
     border-radius: 16px;    
  }
 
@@ -301,7 +301,7 @@
     text-align: center;
     letter-spacing: 0.12px;
     color:#3637FF;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 16px;
     border: 1px solid #3637FF;    
  }
