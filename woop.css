@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "Akkurat Regular";
+    src: url("lineto-akkurat-regular.eot");
+    src: url("lineto-akkurat-regular.eot?#iefix") format("embedded-opentype"),
+        url("lineto-akkurat-regular.woff2") format("woff2"),
+        url("lineto-akkurat-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akkurat Bold";
+    src: url("lineto-akkurat-bold.eot");
+    src: url("lineto-akkurat-bold.eot?#iefix") format("embedded-opentype"),
+        url("lineto-akkurat-bold.woff2") format("woff2"),
+        url("lineto-akkurat-bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .page-h2{
     font-family: 'Akkurat Bold';
     font-style: normal;
