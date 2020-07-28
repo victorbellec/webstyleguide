@@ -3,26 +3,71 @@
     <header>
         <link rel="stylesheet" href="woop.css">
         <script src="custom.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
     </header>
     
 <body>
     <div class="container">
         <div class="page-h1 center-align xl-top xxl-bottom">Beeline website style guide</div>
 
-        <div id="#headings">
-        <div class="page-h2 l-bottom">headings</div>
-        <div id="#h1">
-            <div class="page-h1 s-bottom">This is a h1</div>
-            <div class="page-body s-bottom"> use class page-h1</div>
-            <div class="page-body"><pre><code><div class="page-h1"></div></code></pre></div>
+        <div id="#headings" class="xl-bottom">
+            <div class="page-h2 l-bottom underline">headings:</div>
+            <div id="#h1" class="border-bottom">
+                <div class="page-h1 s-bottom">This is a h1</div>
+                <div class="page-body xxs-bottom s-left"> use class page-h1:</div>
+                <div class="page-body s-bottom s-left"><pre><code class="prettyprint">&lt;div class="page-h1"&gt;&lt;/div&gt;</code></pre></div>
+            </div>
+            <div id="#h2" class="border-bottom m-top">
+                <div class="page-h2 s-bottom">This is a h2</div>
+                <div class="page-body xxs-bottom s-left"> use class page-h2:</div>
+                <div class="page-body s-bottom s-left"><pre><code class="prettyprint">&lt;div class="page-h2"&gt;&lt;/div&gt;</code></pre></div>
+            </div>
+            <div id="#h3" class="border-bottom m-top">
+                <div class="page-h3 s-bottom">This is a h3</div>
+                <div class="page-body xxs-bottom s-left"> use class page-h3:</div>
+                <div class="page-body s-bottom s-left"><pre><code class="prettyprint">&lt;div class="page-h3"&gt;&lt;/div&gt;</code></pre></div>
+            </div>
+            <div id="#h4" class="border-bottom m-top">
+                <div class="page-h4 s-bottom">This is a h4</div>
+                <div class="page-body xxs-bottom s-left"> use class page-h4:</div>
+                <div class="page-body s-bottom s-left"><pre><code class="prettyprint">&lt;div class="page-h4"&gt;&lt;/div&gt;</code></pre></div>
+            </div>
         </div>
-        
-        <div>This is a h2</div>
-        <div>This is a h3</div>
-        <div>This is a h4</div>
-        <div>This is a h5</div>
-        </div>
+        <div id="#colors" class="xl-bottom">
+            <div class="page-h2 l-bottom underline">colors:</div>
+                <div class="page-flex">
+                    <div class="color-swatches">
+                        <div class="color-swatch">
+                            <div class="color-swatch-header yellow color-title">
+                                <div class="color-swatch-header-title">#FFCF00</div>
+                                
+                            </div>
+                            <div class="page-body center-align">Beeline Yellow</div>
+                        </div>
 
-</div>
+                    </div>
+                    <div class="color-swatches">
+                        <div class="color-swatch">
+                            <div class="color-swatch-header dark-navy color-title">
+                                <div class="color-swatch-header-title">#131A2C</div>
+                            </div>
+                            <div class="page-body center-align">Dark Navy</div>
+                        </div>
+
+                    </div>
+                    <div class="color-swatches">
+                        <div class="color-swatch">
+                            <div class="color-swatch-header digital-blue color-title">
+                                <div class="color-swatch-header-title">#3637FF</div>
+                            </div>
+                            <div class="page-body center-align">Digital Blue</div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+    </div>
 </body>
 </html>
