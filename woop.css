@@ -272,7 +272,7 @@
  }
 
  .page-button-primary{
-    width: 168px;
+    width: 168px !important;
     height: 48px;
     left: 241px;
     top: 339px;
