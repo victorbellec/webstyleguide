@@ -286,6 +286,9 @@
     color:#FFFFFF;
     background-color: #3637FF;
     border-radius: 16px;    
+    -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
  }
 
  .page-button-secondary{
@@ -303,5 +306,8 @@
     color:#3637FF;
     background-color: #FFFFFF;
     border-radius: 16px;
-    border: 1px solid #3637FF;    
+    border: 1px solid #3637FF;  
+    -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;  
  }
