@@ -32,7 +32,7 @@
 }
 
 .color-swatches{
-    width:33.3%;
+    width:25%;
 }
 
 .color-swatch{
@@ -78,6 +78,10 @@
 
 .padding-background{
     background-color:#C1CD89;
+}
+
+.background-paper{
+    background-color:#F3F1EA;
 }
 
 .padding-title{
@@ -202,7 +206,7 @@
 
   /* VELO APP PAGE */
 
-.bg-behrivory{
+.bg-paper{
       background-color:#F3F1EA;   
  }
 
@@ -287,8 +291,9 @@
     background-color: #3637FF;
     border-radius: 16px;    
     -webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:none;
  }
 
  .page-button-secondary{
@@ -306,8 +311,8 @@ appearance: none;
     color:#3637FF;
     background-color: #FFFFFF;
     border-radius: 16px;
-    border: 1px solid #3637FF;  
+    border: 2px solid #3637FF;  
     -webkit-appearance: none;
--moz-appearance: none;
-appearance: none;  
+    -moz-appearance: none;
+    appearance: none;  
  }
